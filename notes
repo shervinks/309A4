@@ -1,0 +1,9 @@
+Build html skeletons
+	-log-in/sign-up
+	-login
+	-signup
+	-welcome page with list of users
+	-view profile
+	-edit profile
+	-edit user (admin)
+	-edit admin (super-admin)
