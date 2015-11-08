@@ -1,0 +1,108 @@
+<html>
+<head>
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="main.css">
+	<title>Edit Profile</title>
+
+	<div style="background: grey;">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="http://sloppier-designs.co.uk/imgs/80001.png" width=50 alt="">
+			</div>
+			<div class="col-sm-6">
+				<h3>This will be username</h3>
+			</div>
+		</div>
+	</div>
+</head>
+<body>
+	<div class="container">
+		<div class="row" style="margin-bottom:5%">
+			<div class="col-md-4">
+				<h1>Edit Profile</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">		
+				<img class="img-circle"  src="user.jpg" width="200" height="200"alt="">
+			</div>
+			<div class="col-md-8" style="margin-top:2%">
+				<div class="row" style="margin-bottom:3%">
+					<div class="col-md-6">
+						<label>Email</label>
+					</div>
+					<div class="col-md-6">
+						<input id="textinput" name="changeEmail" placeholder="get email from db" class="form-control input-md" type="text">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" style="margin-bottom:3%">
+						<label>Display Name</label>
+					</div>
+					<div class="col-md-6">	
+						<input id="textinput" name="changeName" placeholder="get username from db" class="form-control input-md" type="text">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<label>Description</label>
+					</div>
+					<div class="col-md-6">
+						<textarea class="form-control" id="textarea" name="description">get data from db</textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div cladd="row" style="margin-top:3%">
+			<div class="col-md-offset-10">
+				<button id="button1id" name="button1id" class="btn btn-success">Update</button>
+				<button id="button2id" name="button2id" class="btn btn-danger" style="margin-left:10%">Cancel</button>
+			</div>
+		</div>	
+		<div class="row" style="margin-bottom:5%">
+			<div class="col-md-4">
+				<h1>Change Password</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row" style="margin-bottom:3%">
+					<div class="col-md-6">
+						<label>Old Password</label>
+					</div>
+					<div class="col-md-6">
+						<input id="textinput" name="oldPassword" class="form-control input-md" type="text">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" style="margin-bottom:3%">
+						<label>New Password</label>
+					</div>
+					<div class="col-md-6">	
+						<input id="textinput" name="newPassword" class="form-control input-md" type="text">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<label>Confirm Password</label>
+					</div>
+					<div class="col-md-6">	
+						<input id="textinput" name="confirmPassword" class="form-control input-md" type="text">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<button id="button1id" name="changePassword" class="btn btn-success" style="margin-left:60%; margin-top:28%">Change Password</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
